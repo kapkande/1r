@@ -6,6 +6,6 @@ function createUrlSticks(arr: string[][], title: string) {
   });
   const finalArray = array.join('@');
   const path = `nameGame=sticks&title=${encodeURI(title)}&arr=${finalArray}`;
-  window.history.pushState({}, '', `/#/${path}`);
+  window.history.pushState({}, '', `${new URL(window.location.href).href}${path}`);
 }
 export default createUrlSticks;
