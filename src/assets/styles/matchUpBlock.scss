@@ -1,0 +1,181 @@
+.matchUp-form {
+    max-width: 50%;
+    margin: 1% auto 5% auto;
+    &__subtitle {
+        display: inline-block;
+    }
+    &__title {
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+    }
+    &__item,
+    &__subtitle {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin-top: 5px;
+        div {
+            text-align: center;
+            font-size: 25px;
+        }
+    }
+    &__subtitle {
+        justify-content: space-evenly;
+    }
+    &__number {
+        width: 20px;
+        color: white;
+    }
+    &__input-delete {
+        height: 24px;
+        width: 24px;
+        background: url('../icons/close.svg');
+        border: none;
+        background-position: center;
+        margin-left: 5px;
+        cursor: pointer;
+    }
+    &__input-delete:hover {
+        background-color: red;
+    }
+    &__input-definitio,
+    &__input-keyword,
+    &__title {
+        height: 24px;
+        width: 900px;
+        font-family: inherit;
+        line-height: 1.15;
+        margin: 0;
+        padding: 1px 2px;
+        border-width: 2px;
+        border-style: inset;
+        border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+        background-color: white;
+        color: black;
+    }
+    &__title {
+        width: 100%;
+    }
+    &__subtitle {
+        color: white;
+    }
+    &__create-line,
+    &__submit {
+        font-size: 25px;
+        position: relative;
+        margin-top: 30px;
+    }
+    &__create-line {
+        left: 20%;
+    }
+    &__submit {
+        left: 55%
+    }
+    &__form {
+        margin-top: 30px;
+    }
+}
+
+.matchUp-game {
+    max-width: 50%;
+    margin: 1% auto 5% auto;
+    &__subtitle {
+        display: inline-block;
+    }
+    &__title {
+        width: 100%;
+        text-align: center;
+    }
+    &__item,
+    &__subtitle {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin-top: 5px;
+        div {
+            text-align: center;
+            font-size: 18px;
+        }
+    }
+    &__subtitle {
+        justify-content: space-evenly;
+    }
+    &__number {
+        width: 20px;
+        color: white;
+    }
+    &__input-delete {
+        height: 24px;
+        width: 24px;
+        background: url('../icons/close.svg');
+        border: none;
+        background-position: center;
+        margin-left: 5px;
+        cursor: pointer;
+    }
+    &__input-delete:hover {
+        background-color: red;
+    }
+    &__definitio,
+    &__box,
+    &__title {
+        height: 24px;
+        width: 200px;
+        font-family: inherit;
+        font-size: 100%;
+        line-height: 1.15;
+        margin: 0;
+        padding: 1px 2px;
+        border-width: 2px;
+        border-style: inset;
+        border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+        background-color: white;
+        color: black;
+    }
+    &__title {
+        width: 100%;
+    }
+    &__subtitle {
+        color: white;
+    }
+    &__drop {
+        border: 2px solid black;
+        background-color: aqua;
+    }
+    &__definitio {
+        user-select: none;
+    }
+    &__time {
+        color: white;
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+.item--hold {
+    background-color: rgb(210, 210, 218);
+}
+
+.item--hide {
+    background-color: aquamarine;
+}
+
+.box--hovered {
+    background-color: burlywood;
+}
+
+.matchUp-game__opacity {
+    width: 100%;
+    min-height: 100vh;
+    opacity: 0.5;
+    background-color: white;
+}
+
+.drop-true {
+    background-color: green;
+}
+
+.drop-false {
+    background-color: red;
+}

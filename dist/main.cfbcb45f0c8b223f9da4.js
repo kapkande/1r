@@ -625,7 +625,7 @@ function createCellListener(url, element) {
         if (target.classList.contains('game-container__share')) {
             return;
         }
-        const path = new URL(window.location.href).origin;
+        const path = new URL(window.location.href).href;
         const gameToOpen = url.split('=')[1].split('&')[0];
         if (!(currentTarget instanceof HTMLElement)) {
             return;
@@ -635,7 +635,7 @@ function createCellListener(url, element) {
             (0, openMatchUpGame_1.default)(url);
         }
         console.log(`${path}#/${url}`);
-        window.history.pushState({ path }, path, `${path}#/${url}`);
+        window.history.pushState({ path }, path, `${path}${url}`);
         if (gameToOpen === 'sticks') {
             (0, openSticks_1.default)();
             (0, openSection_1.default)('sticks-place');
@@ -1336,10 +1336,8 @@ function submitMatchUpForm() {
     matchUp === null || matchUp === void 0 ? void 0 : matchUp.remove();
     (0, createCell_1.default)(URL);
     const id = localStorage.getItem('id');
-    console.log(id);
     if (id) {
         interactionAccounts_1.default.addGameBlock(URL, +id);
-        interactionAccounts_1.default.getGameBlock(+id).then((d) => console.log(d));
     }
 }
 exports["default"] = submitMatchUpForm;
@@ -1374,6 +1372,7 @@ function openGameSettings(e) {
             (0, createBaseMathUp_1.default)();
         }
         (0, openSection_1.default)('matchUp-form');
+        console.log(path);
         window.history.pushState({ path }, path, `${path}/matchUp-form`);
     }
     if (target.classList.contains('wordMagnets')) {
@@ -1734,10 +1733,6 @@ const render = (path) => {
         (0, openSection_1.default)('erore-block');
     }
 };
-window.addEventListener('popstate', () => {
-    render(new URL(window.location.href).hash);
-});
-render('#/');
 exports["default"] = render;
 
 
@@ -1766,7 +1761,7 @@ function shareGame(url, element) {
         setTimeout(() => {
             popup.remove();
         }, 1000);
-        navigator.clipboard.writeText(`${new URL(window.location.href).origin}/#/${url}`);
+        navigator.clipboard.writeText(`${new URL(window.location.href).href}${url}`);
     });
 }
 exports["default"] = shareGame;
@@ -2496,4 +2491,4 @@ module.exports = __webpack_require__.p + "site-icon.png";
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=main.b023e2e1009d6b7aefab.js.map
+//# sourceMappingURL=main.cfbcb45f0c8b223f9da4.js.map
