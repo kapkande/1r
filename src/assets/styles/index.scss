@@ -10,13 +10,13 @@
 html {
     width: 100%;
     height: 100%;
+    overflow-x: hidden;
 }
 
 body {
-    width: 100%;
+    width: 100vw;
     height: 100%;
-    background: rgb(93,0,0);
-background: linear-gradient(49deg, rgba(93,0,0,1) 0%, rgba(1,0,69,1) 100%);
+    background: linear-gradient(49deg, rgba(93,0,0,1) 0%, rgba(1,0,69,1) 100%);
     display: flex;
     flex-direction: column;
 }

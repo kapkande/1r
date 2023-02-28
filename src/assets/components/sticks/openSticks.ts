@@ -2,7 +2,6 @@ import { Sticks } from './paper';
 
 function openSticks() {
   const str = window.location.hash.split('/')[1];
-  console.log(str);
   const arrStr = str.split('&')[2].split('=')[1];
   const array: string[][] = [];
   const splitted = arrStr.split('@');

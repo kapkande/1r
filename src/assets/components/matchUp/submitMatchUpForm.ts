@@ -39,10 +39,11 @@ function submitMatchUpForm() {
   openMatchUpGame(URL);
   matchUp?.remove();
   createCell(URL);
-
   const id = localStorage.getItem('id');
+  console.log(id);
   if (id) {
     interactionAccounts.addGameBlock(URL, +id);
+    interactionAccounts.getGameBlock(+id).then((d) => console.log(d));
   }
 }
 export default submitMatchUpForm;

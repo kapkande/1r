@@ -30,18 +30,23 @@ function createBaseMathUp() {
 
   blockMatchUp.appendChild(block);
 
+  const divForButtons = document.createElement('div');
+  divForButtons.classList.add('matchUp-form__div-buttons')
+
   const createLineBtm = document.createElement('button');
   createLineBtm.classList.add('matchUp-form__create-line');
   createLineBtm.textContent = 'Add line';
   createLineBtm.setAttribute("formnovalidate", 'true');
   createLineBtm.addEventListener('click', createLine);
-  blockMatchUp.appendChild(createLineBtm);
 
   const submit = document.createElement('button');
   submit.classList.add('matchUp-form__submit');
   submit.textContent = 'Submit';
   submit.addEventListener('click', submitMatchUpForm)
-  blockMatchUp.appendChild(submit);
+
+  blockMatchUp.appendChild(divForButtons);
+  divForButtons.appendChild(createLineBtm)
+  divForButtons.appendChild(submit)
 
   const main = document.querySelector('.main');
 

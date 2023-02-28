@@ -1,6 +1,10 @@
 .matchUp-form {
     max-width: 50%;
     margin: 1% auto 5% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
     &__subtitle {
         display: inline-block;
     }
@@ -43,7 +47,7 @@
     &__input-keyword,
     &__title {
         height: 24px;
-        width: 900px;
+        width: 20vw;
         font-family: inherit;
         line-height: 1.15;
         margin: 0;
@@ -67,19 +71,44 @@
         margin-top: 30px;
     }
     &__create-line {
-        left: 20%;
+        display: inline;
+
     }
     &__submit {
-        left: 55%
+        display: inline;
     }
     &__form {
         margin-top: 30px;
+        @media (max-width: 1400px) {
+            width: 700px;
+        }
+        @media (max-width: 700px) {
+            width: 100vw;
+        }
+    }
+    &__div-buttons {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    @media (max-width: 1400px) {
+        max-width: 700px;
+    }
+    &__input-definitio,
+    &__input-keyword {
+        @media (max-width: 1400px) {
+            width: 700px;
+        }
+        @media (max-width: 700px) {
+            width: 100vw;
+        }
     }
 }
 
 .matchUp-game {
     max-width: 50%;
     margin: 1% auto 5% auto;
+    overflow-x: hidden;
     &__subtitle {
         display: inline-block;
     }
@@ -150,6 +179,9 @@
         color: white;
         text-align: center;
         font-size: 18px;
+    }
+    @media (max-width: 800px) {
+        max-width: none;
     }
 }
 

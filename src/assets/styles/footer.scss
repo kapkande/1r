@@ -8,10 +8,11 @@
   }
   .foooter__info-list{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     list-style-type: none;
     margin:  0;
+    padding: 0;
     width: 100%;
   }
   .footer__item{
@@ -29,6 +30,9 @@
     background: url('../images/github.png') no-repeat top 0px left 0px;
     background-size: 100%;
     border-radius: 5%;
+    @media (max-width: 600px) {
+      display: none;
+    }
   }
   .item__image-rsschool{
     margin-right: 5px;
@@ -51,5 +55,16 @@
     &:hover{
       cursor: pointer;
       color: rgb(252, 193, 92);
+    }
+  }
+  .footer_title {
+    font-size: 2vw;
+    @media (max-width: 600px) {
+      font-size: 3.5vw;
+    }
+  }
+  .rs-school_title {
+    @media (max-width: 600px) {
+      display: none;
     }
   }

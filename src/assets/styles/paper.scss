@@ -19,6 +19,15 @@
     background-size:contain;
     margin: 10px;
     cursor: pointer;
+    @media (max-width: 661px) {
+        width: 140px;
+        height: 140px;
+        margin: 5px;
+    }
+    @media (max-width: 450px) {
+        width: 100px;
+        height: 100px;
+    }
 }
 .sticksText {
     height: 100%;
@@ -28,6 +37,12 @@
     text-align: center;
     font-size: 28px;
     color: rgb(0, 0, 0);
+    @media (max-width: 661px) {
+        font-size: 18px;
+    }
+    @media (max-width: 450px) {
+        font-size: 14px;
+    }
 }
 .stickers-anim {
     animation: 1.5s;
@@ -76,11 +91,16 @@
 
 .input-name-sticks {
     width: 50%;
-    position: relative;
-    left: 25%;
+    
     margin-top: 20px;
     text-align: center;
     font-size: 25px;
+    @media (max-width: 1400px) {
+        width: 700px;
+    }
+    @media (max-width: 700px) {
+        width: 100%;
+    }
 }
 .input__question__sticks {
     display: flex;
@@ -95,6 +115,9 @@
 }
 .input-in-form {
     width: 23.3%;
+    @media (max-width: 1400px) {
+        width: 300px;
+    }
 }
 .stick-form-buttons {
     display: flex;
@@ -108,4 +131,17 @@
 .sticks-title {
     color:white;
     font-size: 50px;
+}
+.sticks-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.sticks-form-main {
+    width: 1400px;
+    @media (max-width: 1400px) {
+        width: 100%;
+    }
 }

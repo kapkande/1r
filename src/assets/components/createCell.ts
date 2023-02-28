@@ -10,7 +10,7 @@ function createCellListener(url: string, element: HTMLElement) {
     const { target } = e;
     if (!(target instanceof HTMLElement)) { return; }
     if (target.classList.contains('game-container__share')) { return; }
-    const path = new URL(window.location.href).href;
+    const path = new URL(window.location.href).origin;
 
     const gameToOpen = url.split('=')[1].split('&')[0];
     if (!(currentTarget instanceof HTMLElement)) { return; }
@@ -19,7 +19,7 @@ function createCellListener(url: string, element: HTMLElement) {
       openMatchUpGame(url);
     }
     console.log(`${path}#/${url}`);
-    window.history.pushState({ path }, path, `${path}${url}`);
+    window.history.pushState({ path }, path, `${path}#/${url}`);
     if (gameToOpen === 'sticks') {
       openSticks();
       openSection('sticks-place');

@@ -44,6 +44,9 @@ main {
     border-radius: 5px;
     transition: all 0.3s;
     cursor: pointer;
+    @media (max-width: 900px) {
+        width: 90%;
+    }
 }
 
 .game-container:hover {

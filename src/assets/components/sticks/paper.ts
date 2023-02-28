@@ -71,7 +71,7 @@ export class Sticks {
     let countClicks = 1;
     sticksGame.addEventListener('click', (e) => {
       // eslint-disable-next-line
-      const loseAud = require('../../sounds/swop.mp3');
+      const loseAud = require('../../sounds/wrron.mp3');
       // eslint-disable-next-line
       const winAud = require('../../sounds/win.mp3');
       const winAudio = new Audio(winAud);
