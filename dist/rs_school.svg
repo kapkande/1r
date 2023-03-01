@@ -1,0 +1,62 @@
+<svg width="80" height="40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title>rs_school_js</title>
+ <defs>
+  <ellipse ry="51.8" rx="63" cy="67.9" cx="420.5" transform="rotate(-37.001 420.46 67.88)" id="SVGID_1_"/>
+ </defs>
+ <clipPath id="SVGID_2_">
+  <use id="svg_1" overflow="visible" xlink:href="#SVGID_1_"/>
+ </clipPath>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_7" clip-path="url(#SVGID_2_)" class="st1">
+   <path id="svg_8" fill="#fff" d="m114.9,-20.2l179.8,0l0,165.1l-179.8,0l0,-165.1z" class="st0" transform="rotate(-37.001 204.82 62.353)"/>
+   <g id="Layer_2_1_">
+    <defs transform="translate(-216 -6)">
+     <path d="m330.9,-14.2l179.8,0l0,165.1l-179.8,0l0,-165.1z" transform="rotate(-37.001 420.82 68.353)" id="SVGID_3_"/>
+    </defs>
+    <clipPath id="SVGID_4_" transform="translate(-216 -6)">
+     <use id="svg_9" overflow="visible" xlink:href="#SVGID_3_" y="-6" x="-216"/>
+    </clipPath>
+    <g clip-path="url(#SVGID_4_)" class="st2" id="Layer_1-2">
+     <ellipse id="svg_10" fill="#fff" ry="51.8" rx="63" cy="61.9" cx="204.5" class="st0" transform="rotate(-37.001 204.46 61.88)"/>
+     <defs transform="translate(-216 -6)">
+      <ellipse ry="51.8" rx="63" cy="67.9" cx="420.5" transform="rotate(-37.001 420.46 67.88)" id="SVGID_5_"/>
+     </defs>
+     <clipPath id="SVGID_6_" transform="translate(-216 -6)">
+      <use id="svg_11" overflow="visible" xlink:href="#SVGID_5_" y="-6" x="-216"/>
+     </clipPath>
+     <g id="svg_12" clip-path="url(#SVGID_6_)" class="st3">
+      <path id="svg_13" fill="#fff" d="m141.8,11l125.9,0l0,103.7l-125.9,0l0,-103.7z" class="st0" transform="rotate(-37 204.799 62.802)"/>
+      <defs transform="translate(-216 -6)">
+       <path d="m357.8,17l125.9,0l0,103.7l-125.9,0l0,-103.7z" transform="rotate(-37 420.799 68.802)" id="SVGID_7_"/>
+      </defs>
+      <clipPath id="SVGID_8_" transform="translate(-216 -6)">
+       <use id="svg_14" overflow="visible" xlink:href="#SVGID_7_" y="-6" x="-216"/>
+      </clipPath>
+      <g id="svg_15" clip-path="url(#SVGID_8_)" class="st4">
+       <ellipse id="svg_16" stroke-miterlimit="10" stroke-width="4" stroke="#000" fill="#fff" ry="51.8" rx="63" cy="61.9" cx="204.5" class="st5" transform="rotate(-37.001 204.46 61.88)"/>
+      </g>
+      <path id="svg_17" stroke-miterlimit="10" stroke-width="4" stroke="#000" fill="none" clip-path="url(#SVGID_8_)" d="m141.8,11l125.9,0l0,103.7l-125.9,0l0,-103.7z" class="st6" transform="rotate(-37 204.799 62.802)"/>
+      <ellipse id="svg_18" stroke-miterlimit="10" stroke-width="4" stroke="#000" fill="none" ry="51.8" rx="63" cy="61.9" cx="204.5" class="st7" transform="rotate(-37.001 204.46 61.88)"/>
+      <path id="svg_19" fill="#fff" d="m141.8,11l125.9,0l0,103.7l-125.9,0l0,-103.7z" class="st0" transform="rotate(-37 204.799 62.802)"/>
+      <defs transform="translate(-216 -6)">
+       <path d="m357.8,17l125.9,0l0,103.7l-125.9,0l0,-103.7z" transform="rotate(-37 420.799 68.802)" id="SVGID_9_"/>
+      </defs>
+      <clipPath id="SVGID_10_" transform="translate(-216 -6)">
+       <use id="svg_20" overflow="visible" xlink:href="#SVGID_9_" y="-6" x="-216"/>
+      </clipPath>
+      <g id="svg_21" clip-path="url(#SVGID_10_)" class="st8">
+       <ellipse id="svg_22" stroke-miterlimit="10" stroke-width="4" stroke="#000" fill="#fff" ry="51.8" rx="63" cy="61.9" cx="204.5" class="st5" transform="rotate(-37.001 204.46 61.88)"/>
+      </g>
+      <path id="svg_23" stroke-miterlimit="10" stroke-width="4" stroke="#000" fill="none" clip-path="url(#SVGID_10_)" d="m141.8,11l125.9,0l0,103.7l-125.9,0l0,-103.7z" class="st9" transform="rotate(-37 204.799 62.802)"/>
+      <path id="svg_24" stroke-miterlimit="10" stroke-width="4" stroke="#000" fill="none" d="m114.9,-20.2l179.8,0l0,165.1l-179.8,0l0,-165.1z" class="st7" transform="rotate(-37.001 204.82 62.353)"/>
+     </g>
+     <ellipse id="svg_25" stroke-miterlimit="10" stroke-width="4" stroke="#000" fill="none" ry="51.8" rx="63" cy="61.9" cx="204.5" class="st7" transform="rotate(-37.001 204.46 61.88)"/>
+     <path id="svg_26" d="m176.4,55.3l10,-7l12.3,17.5c2.1,2.8 3.7,5.8 4.9,9.1c0.7,2.5 0.5,5.2 -0.5,7.6c-1.3,3 -3.4,5.5 -6.2,7.3c-3.3,2.3 -6.1,3.6 -8.5,4c-2.3,0.4 -4.7,0 -6.9,-1c-2.4,-1.2 -4.5,-2.9 -6.1,-5.1l8.6,-8c0.7,1.1 1.6,2.1 2.6,2.9c0.7,0.5 1.5,0.8 2.4,0.8c0.7,0 1.4,-0.3 1.9,-0.7c1,-0.6 1.7,-1.8 1.6,-3c-0.3,-1.7 -1,-3.4 -2.1,-4.7l-14,-19.7zm30,11.1l9.1,-7.2c1,1.2 2.3,2.1 3.7,2.6c2,0.6 4.1,0.2 5.8,-1.1c1.2,-0.8 2.2,-1.9 2.6,-3.3c0.6,-1.8 -0.4,-3.8 -2.2,-4.4c-0.3,-0.1 -0.6,-0.2 -0.9,-0.2c-1.2,-0.1 -3.3,0.4 -6.4,1.7c-5.1,2.1 -9.1,2.9 -12.1,2.6c-2.9,-0.3 -5.6,-1.8 -7.2,-4.3c-1.2,-1.7 -1.8,-3.7 -1.9,-5.7c0,-2.3 0.6,-4.6 1.9,-6.5c1.9,-2.7 4.2,-5 7,-6.8c4.2,-2.9 7.9,-4.3 11.1,-4.3c3.2,0 6.2,1.5 9,4.6l-9,7.1c-1.8,-2.3 -5.2,-2.8 -7.5,-1l-0.3,0.3c-1,0.6 -1.7,1.5 -2.1,2.6c-0.3,0.8 -0.1,1.7 0.4,2.4c0.4,0.5 1,0.9 1.7,0.9c0.8,0.1 2.2,-0.3 4.2,-1.2c5,-2.1 8.8,-3.3 11.4,-3.7c2.2,-0.4 4.5,-0.2 6.6,0.7c1.9,0.8 3.5,2.2 4.6,3.9c1.4,2 2.2,4.4 2.3,6.9c0.1,2.6 -0.6,5.1 -2,7.3c-1.8,2.7 -4.1,5 -6.8,6.8c-5.5,3.8 -10,5.4 -13.6,4.8c-3.9,-0.6 -7.1,-2.6 -9.4,-5.5z"/>
+    </g>
+   </g>
+  </g>
+  <text fill="#ffa500" stroke-width="0" x="-6.87387" y="18.605" id="svg_31" font-size="24" font-family="'Piazzolla'" text-anchor="start" xml:space="preserve" font-weight="bold" stroke="null" transform="rotate(12 16.8454 9.37305) matrix(0.835832 0 0 0.964151 8.90111 0.574139)">RS</text>
+  <text fill="#ffa500" stroke="null" stroke-width="0" x="-0.79998" y="39.00006" id="svg_32" font-size="24" font-family="'Fraunces'" text-anchor="start" xml:space="preserve">School</text>
+ </g>
+</svg>
