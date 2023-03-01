@@ -6,7 +6,7 @@ import interactionAccounts from './assets/components/interactionAccounts';
 import openLogin from './assets/components/popupLogin/openLogin';
 import createPopupLogin from './assets/components/popupLogin/createPopupLogin';
 import createPopupRegister from './assets/components/popupLogin/createPopupRegister';
-import checkAccaunt from './assets/components/accaunr/checkAccaunt';
+import checkAccaunt from './assets/components/account/checkAccount';
 
 createPopupLogin();
 createPopupRegister();
@@ -34,7 +34,7 @@ createGameSelectionBlock();
 
 checkAccaunt();
 
-window.addEventListener('popstate', (e) => {
+window.addEventListener('popstate', () => {
   render(new URL(window.location.href).hash);
 });
 render(new URL(window.location.href).hash);

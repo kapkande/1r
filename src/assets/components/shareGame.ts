@@ -10,7 +10,7 @@ function shareGame(url:string, element:HTMLElement) {
     setTimeout(() => {
       popup.remove();
     }, 1000);
-    navigator.clipboard.writeText(`${new URL(window.location.href).origin}/#/${url}`);
+    navigator.clipboard.writeText(`${new URL(window.location.href).href}${url}`);
   });
 }
 export default shareGame;

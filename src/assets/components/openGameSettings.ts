@@ -12,6 +12,7 @@ function openGameSettings(e:Event) {
       createBaseMathUp();
     }
     openSection('matchUp-form');
+    console.log(path);
     window.history.pushState({ path }, path, `${path}/matchUp-form`);
   }
   if (target.classList.contains('wordMagnets')) {

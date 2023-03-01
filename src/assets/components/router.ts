@@ -6,6 +6,7 @@ import openSticks from './sticks/openSticks';
 
 const render = (path: string) => {
   if (path === '#/' || path === '') {
+    window.history.pushState({ path }, path, `#/`);
     openSection('');
   } else if (path === '#/addGame') {
     openSection('selectionBlock');
@@ -31,9 +32,4 @@ const render = (path: string) => {
     openSection('erore-block');
   }
 };
-window.addEventListener('popstate', () => {
-  render(new URL(window.location.href).hash);
-});
-render('#/');
-
 export default render;

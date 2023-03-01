@@ -1,9 +1,11 @@
-.header__container{
+.header__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.login, .signOut {
+
+.login,
+.signOut {
     cursor: pointer;
     color: #000;
     border-radius: 5px;
@@ -11,6 +13,33 @@
     font-size: 18px;
     margin: 1% 2% 0 0;
     padding: 8px 14px;
+    overflow: hidden;
+    width: 154px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border: none;
+    transition: all 0.5s;
+}
+
+.login-name {
+    width: 154px;
+}
+
+.Login-text {
+    width: 154px;
+    display: none;
+}
+
+.login:hover .login-name,
+.signOut:hover .login-name {
+    width: 16px;
+    display: none;
+}
+
+.login:hover .Login-text,
+.signOut:hover .Login-text {
+    display: block;
 }
 
 .popup-login,
@@ -24,6 +53,7 @@
 .popup__content {
     margin: 0 45px;
 }
+
 .popup__wrap {
     max-width: 650px;
     position: absolute;
@@ -33,7 +63,7 @@
     border-radius: 16px;
     z-index: 1;
     margin: 0 auto;
-    transition: all 0.9s;
+    transition: box-shadow 0.9s;
     top: 20%;
     left: 50%;
     transform: translate(-50%, 0%);

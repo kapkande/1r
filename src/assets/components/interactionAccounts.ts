@@ -3,7 +3,11 @@ import AccountData1 from './data/AccountData';
 
 const interactionAccounts = {
   rootLinck: 'https://zany-cyan-chameleon-sock.cyclic.app',
-
+  getName: async (id:string) => {
+    const response = await fetch(`${interactionAccounts.rootLinck}/accounts/${id}`);
+    const data = await response.json();console.log(data.name);
+    return data.name;
+  },
   getAcount: async (nameFromInput: string, passwordFromInput: string) => {
     const response = await fetch(`${interactionAccounts.rootLinck}/accounts`);
     const data = await response.json();

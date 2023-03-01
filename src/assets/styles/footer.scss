@@ -38,9 +38,10 @@
     margin-right: 5px;
     height: 67.5px;
     width:  187px;
-    background: url('../images/rs-school.png') no-repeat top 0px left 0px;
-    background-size: 100%;
-    border-radius: 5%;
+    background: url('../icons/rs_school.svg') no-repeat;
+    background-size: 70%;
+    background-position: center;
+    border-radius: 0;
   }
   .footer__link{
     color: orange;

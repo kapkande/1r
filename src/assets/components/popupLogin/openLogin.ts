@@ -1,4 +1,4 @@
-import checkAccaunt from '../accaunr/checkAccaunt';
+import checkAccaunt from '../account/checkAccount';
 import submitLogin from './submitLogin';
 import submitNewAccount from './submitNewAccount';
 
@@ -8,7 +8,7 @@ function openLogin(e: Event) {
   if (!(e.target instanceof HTMLElement)) { return; }
   const { target } = e;
 
-  if (target.classList.contains('login') || target.closest('div')?.classList.contains('popup__log-in')) {
+  if (target.classList.contains('login') || target.closest('div')?.classList.contains('popup__log-in') || target.closest('button')?.classList.contains('login')) {
     login!.classList.remove('hidden');
     register!.classList.add('hidden');
   }
@@ -22,7 +22,7 @@ function openLogin(e: Event) {
   if (target?.classList.contains('popup__sing-up')) {
     submitNewAccount();
   }
-  if (target?.classList.contains('signOut')) {
+  if (target?.classList.contains('signOut') || target.closest('button')?.classList.contains('signOut')) {
     localStorage.removeItem('id');
     checkAccaunt();
     location.reload();
